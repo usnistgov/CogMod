@@ -1,24 +1,27 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; 
 ;;; Author      : Frank Tamborello
-;;; Copyright   : (c) 2014, 2015 Frank Tamborello
-;;; Availability: GNU LGPL, see LGPL.txt
-;;; Address     : https://github.com/usnistgov/CogMod
-;;;		: franklin.tamborell.ctro@nrl.navy.mil
-;;;
-;;; Disclaimer	:     This library is free software; you can redistribute it and/or
-;;;		: modify it under the terms of the GNU Lesser General Public
-;;;		: License as published by the Free Software Foundation; either
-;;;		: version 2.1 of the License, or (at your option) any later version.
-;;;		:     This library is distributed in the hope that it will be useful,
-;;;		: but WITHOUT ANY WARRANTY; without even the implied warranty of
-;;;		: MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-;;;		: Lesser General Public License for more details.
-;;;		:     You should have received a copy of the GNU Lesser General Public
-;;;		: License along with this library; if not, write to the Free Software
-;;;		: Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-;;;		: 
+;;; Copyright   : (c)2015 Frank Tamborello, All Rights Reserved
+;;; Availability: public domain
 ;;; 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; This library is free software; you can redistribute it and/or
+;;; modify it under the terms of the Lisp Lesser General Public
+;;; License: the GNU Lesser General Public License as published by the
+;;; Free Software Foundation (either version 2.1 of the License, 
+;;; or, at your option, any later version),
+;;; and the Franz, Inc Lisp-specific preamble.
+;;;
+;;; This library is distributed in the hope that it will be useful,
+;;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+;;; Lesser General Public License for more details.
+;;;
+;;; You should have received a copy of the Lisp Lesser General Public
+;;; License along with this library; if not, write to the Free Software
+;;; Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+;;; and see Franz, Inc.'s preamble to the GNU Lesser General Public License,
+;;; http://opensource.franz.com/preamble.html.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; 
 ;;; Filename    : typing-error.lisp
@@ -44,6 +47,10 @@
 ;;; 3. Sometimes people fail to punch a key not because they miss in the X or Y
 ;;; dimensions, but because they fail to exert sufficient force in the Z dimension.
 ;;; How might I implement that?
+;;;
+;;; 4. Sometimes people mistype because their entire hand is erroneously transposed
+;;; one or two keys off from its homerow location, especially if, say, they just moved
+;;; that hand back to the keyboard from the pointing device.
 ;;;
 ;;;
 ;;; Theoretical Issues	: 
