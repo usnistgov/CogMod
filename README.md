@@ -1,4 +1,4 @@
-# CogMod
+# Stochastic Typing Extension for ACT-R
 This code extends ACT-R 6.1 (r1754) to implement errorful typing, case-sensitive typing, and typing of non-alphanumeric characters.
 
 “The United States Department of Commerce (DOC) GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. DOC has relinquished control of the information and no longer has responsibility to protect the integrity, confidentiality, or availability of the information. Any claims against the Department of Commerce stemming from the use of its GitHub project will be
